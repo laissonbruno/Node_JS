@@ -4,14 +4,23 @@ Este repositório contém uma coleção de projetos e exemplos criados para apro
 
 ## Projetos e Exemplos
 
-### 1. Projeto de API com Express.js
+### Projeto de API com Express.js
 Um projeto simples que demonstra a criação de uma API utilizando o framework Express.js. Este projeto inclui rotas básicas, middleware e manipulação de requisições e respostas.
 
-### 2. Integração com MongoDB usando Mongoose
+### Integração com MongoDB usando Mongoose
 Um exemplo de como utilizar o Mongoose, uma biblioteca ODM (Object Data Modeling) para o MongoDB, para definir esquemas e modelos e interagir com um banco de dados MongoDB.
 
-### 3. Integração com Banco de Dados Relacional usando Sequelize
-Neste projeto, exploramos o Sequelize, um ORM (Object-Relational Mapping), para realizar operações de banco de dados relacionais, como criar tabelas, realizar consultas e estabelecer associações entre modelos.
+### Integração com Banco de Dados Relacional usando Sequelize
+Sequelize, um ORM (Object-Relational Mapping), para realizar operações de banco de dados relacionais, como criar tabelas, realizar consultas e estabelecer associações entre modelos.
+
+### Sistema MVC com Node.js
+Um sistema desenvolvido utilizando o padrão de arquitetura MVC (Model-View-Controller), com as seguintes tecnologias:
+- Express.js para a camada de controle (Controller).
+- Path para gerenciamento de caminhos de arquivos.
+- MySQL2 para o banco de dados relacional.
+- Body-parser para lidar com dados das requisições.
+- Sequelize para interagir com o banco de dados relacional usando ORM.
+- Estruturação em CRUD (Create, Read, Update, Delete) para operações de banco de dados.
 
 ## Tecnologias Utilizadas
 
@@ -23,6 +32,3 @@ Neste projeto, exploramos o Sequelize, um ORM (Object-Relational Mapping), para 
 - Sequelize: ORM para banco de dados relacionais.
 - Nodemon: Utilitário para reiniciar automaticamente o servidor durante o desenvolvimento.
 
----
-
-Divirta-se explorando os projetos e aprendendo mais sobre o Node.js e suas integrações!
